@@ -1,6 +1,6 @@
 # Evolve
 
-App de entrenamiento diario. Hecha con Flutter, compatible con Android e iOS desde el mismo código.
+App de entrenamiento diario. Hecha con Flutter, compatible con Android e iOS
 
 ## Requisitos
 
