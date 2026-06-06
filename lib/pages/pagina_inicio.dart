@@ -4,6 +4,7 @@ import '../widgets/barra_navegacion.dart';
 import '../widgets/tarjeta_estadistica.dart';
 import '../widgets/tarjeta_funcion.dart';
 import '../widgets/tarjeta_sesion.dart';
+import 'pagina_nutricion.dart';
 
 class PaginaInicio extends StatelessWidget {
   const PaginaInicio({super.key});
@@ -182,6 +183,12 @@ class _FilaEstadisticas extends StatelessWidget {
 class _CuadriculaFunciones extends StatelessWidget {
   const _CuadriculaFunciones();
 
+  void _abrirNutricion(BuildContext context) {
+    Navigator.of(context).push(
+      MaterialPageRoute(builder: (_) => const PaginaNutricion()),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return GridView.count(
@@ -191,20 +198,20 @@ class _CuadriculaFunciones extends StatelessWidget {
       mainAxisSpacing: 10,
       crossAxisSpacing: 10,
       childAspectRatio: 0.95,
-      children: const [
-        TarjetaFuncion(
+      children: [
+        const TarjetaFuncion(
           icono: Icons.trending_up_rounded,
           colorIcono: ColoresApp.acentoGradiente1,
           titulo: 'Mi Progreso',
           descripcion: 'Mira tendencias, fotos, guía',
         ),
-        TarjetaFuncion(
+        const TarjetaFuncion(
           icono: Icons.fitness_center_rounded,
           colorIcono: ColoresApp.acentoCalor,
           titulo: 'Entrenamientos',
           descripcion: 'Inicia nuevas series, busca músculos',
         ),
-        TarjetaFuncion(
+        const TarjetaFuncion(
           icono: Icons.calendar_today_rounded,
           colorIcono: ColoresApp.acentoVerde,
           titulo: 'Programas',
@@ -215,14 +222,15 @@ class _CuadriculaFunciones extends StatelessWidget {
           colorIcono: ColoresApp.acentoTeal,
           titulo: 'Nutrición',
           descripcion: 'Track momentos, guardar',
+          alPulsar: () => _abrirNutricion(context),
         ),
-        TarjetaFuncion(
+        const TarjetaFuncion(
           icono: Icons.groups_rounded,
           colorIcono: ColoresApp.acentoMorado,
           titulo: 'Comunidad',
           descripcion: 'Desafíos, amigos',
         ),
-        TarjetaFuncion(
+        const TarjetaFuncion(
           icono: Icons.person_rounded,
           colorIcono: ColoresApp.acentoGradiente1,
           titulo: 'Perfil',

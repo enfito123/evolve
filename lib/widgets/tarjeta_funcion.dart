@@ -8,16 +8,18 @@ class TarjetaFuncion extends StatelessWidget {
     required this.colorIcono,
     required this.titulo,
     required this.descripcion,
+    this.alPulsar,
   });
 
   final IconData icono;
   final Color colorIcono;
   final String titulo;
   final String descripcion;
+  final VoidCallback? alPulsar;
 
   @override
   Widget build(BuildContext context) {
-    return Container(
+    final contenido = Container(
       padding: const EdgeInsets.all(10),
       decoration: BoxDecoration(
         color: ColoresApp.tarjeta,
@@ -54,6 +56,16 @@ class TarjetaFuncion extends StatelessWidget {
             ],
           ),
         ],
+      ),
+    );
+
+    if (alPulsar == null) return contenido;
+    return Material(
+      color: Colors.transparent,
+      child: InkWell(
+        onTap: alPulsar,
+        borderRadius: BorderRadius.circular(18),
+        child: contenido,
       ),
     );
   }
