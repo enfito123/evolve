@@ -37,6 +37,9 @@ dependencies:
   intl: ^0.20.1
   flutter_secure_storage: ^9.2.2
   url_launcher: ^6.3.0
+  shared_preferences: ^2.3.3
+  health: ^13.3.1
+  audioplayers: ^6.1.0
 
 dev_dependencies:
   flutter_test:
@@ -60,10 +63,29 @@ flutter:
   # the material Icons class.
   uses-material-design: true
 
-  # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  assets:
+    - Ejercicios/9090/90_90.png
+    - Ejercicios/gusanos/gusanos.png
+    - Ejercicios/Sentadilla/Sentadilla.png
+    - Ejercicios/DumbellSquat/DumbellSquat.png
+    - Ejercicios/Burpees/Burpees.png
+    - Ejercicios/Vups/Vups.png
+    - Ejercicios/DumbellThruster/DumbellThruster.png
+    - Ejercicios/DumbellPress/DumbellPress.png
+    - Ejercicios/Flexiones y tap/Flexiones y tap.png
+    - Ejercicios/Jumping Jack/Jumping Jack.png
+    - Ejercicios/AperturaLateralPierna/AperturaLateralPierna.png
+    - Ejercicios/Retracciones cervicales/RetraccionesCervicales.png
+    - Ejercicios/Estiramiento Spiderman/EstiramientoSpiderman.png
+    - Ejercicios/Skipping/Skipping.png
+    - Ejercicios/LungeMancuernas/LungeMancuernas.png
+    - Ejercicios/BurpeeConSaltoMancuernas/BurpeeConSaltoMancuernas.png
+    - Ejercicios/PesoMuertoConMancuernas/PesoMuertoConMancuernas.png
+    - Ejercicios/ThrusterConMancuernas/ThrusterConMancuernas.png
+    - Ejercicios/HollowBodyHold/HollowBodyHold.png
+    - Ejercicios/DevilPress/DevilPress.png
+    - Ejercicios/VUpMancuernas/VupMancuernas.png
+    - Ejercicios/SentadillaKettlebell/SentadillaKettlebell.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

@@ -9,6 +9,8 @@ class TarjetaEstadistica extends StatelessWidget {
     required this.valor,
     required this.etiqueta,
     required this.detalle,
+    this.colorValor,
+    this.alPulsar,
   });
 
   final IconData icono;
@@ -16,10 +18,12 @@ class TarjetaEstadistica extends StatelessWidget {
   final String valor;
   final String etiqueta;
   final String detalle;
+  final Color? colorValor;
+  final VoidCallback? alPulsar;
 
   @override
   Widget build(BuildContext context) {
-    return Container(
+    final contenido = Container(
       padding: const EdgeInsets.all(12),
       decoration: BoxDecoration(
         color: ColoresApp.tarjeta,
@@ -46,7 +50,14 @@ class TarjetaEstadistica extends StatelessWidget {
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text(valor, style: Theme.of(context).textTheme.bodyLarge),
+              Text(
+                valor,
+                style: Theme.of(context).textTheme.bodyLarge?.copyWith(
+                  color: colorValor,
+                  fontWeight:
+                      colorValor != null ? FontWeight.w800 : FontWeight.w600,
+                ),
+              ),
               const SizedBox(height: 2),
               Text(
                 detalle,
@@ -57,6 +68,16 @@ class TarjetaEstadistica extends StatelessWidget {
             ],
           ),
         ],
+      ),
+    );
+
+    if (alPulsar == null) return contenido;
+    return Material(
+      color: Colors.transparent,
+      child: InkWell(
+        onTap: alPulsar,
+        borderRadius: BorderRadius.circular(18),
+        child: contenido,
       ),
     );
   }

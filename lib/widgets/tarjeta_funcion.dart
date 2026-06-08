@@ -7,14 +7,16 @@ class TarjetaFuncion extends StatelessWidget {
     required this.icono,
     required this.colorIcono,
     required this.titulo,
-    required this.descripcion,
+    this.descripcion,
+    this.destacado,
     this.alPulsar,
   });
 
   final IconData icono;
   final Color colorIcono;
   final String titulo;
-  final String descripcion;
+  final String? descripcion;
+  final String? destacado;
   final VoidCallback? alPulsar;
 
   @override
@@ -47,12 +49,25 @@ class TarjetaFuncion extends StatelessWidget {
                 overflow: TextOverflow.ellipsis,
               ),
               const SizedBox(height: 2),
-              Text(
-                descripcion,
-                style: Theme.of(context).textTheme.labelSmall,
-                maxLines: 2,
-                overflow: TextOverflow.ellipsis,
-              ),
+              if (destacado != null)
+                Text(
+                  destacado!,
+                  style: TextStyle(
+                    color: colorIcono,
+                    fontSize: 15,
+                    fontWeight: FontWeight.w800,
+                    letterSpacing: 0.2,
+                  ),
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
+                )
+              else if (descripcion != null)
+                Text(
+                  descripcion!,
+                  style: Theme.of(context).textTheme.labelSmall,
+                  maxLines: 2,
+                  overflow: TextOverflow.ellipsis,
+                ),
             ],
           ),
         ],

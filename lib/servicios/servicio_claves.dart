@@ -2,24 +2,34 @@ import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 
 class ServicioClaves {
   ServicioClaves._();
-
   static final ServicioClaves instancia = ServicioClaves._();
 
-  static const String _claveGemini = 'gemini_api_key';
+  static const String _claveGroq = 'clave_groq';
+  static const String _prefijoGroq = 'gsk_';
 
-  final FlutterSecureStorage _almacen = const FlutterSecureStorage(
+  final FlutterSecureStorage _storage = const FlutterSecureStorage(
     aOptions: AndroidOptions(encryptedSharedPreferences: true),
   );
 
-  Future<String?> obtenerClaveGemini() => _almacen.read(key: _claveGemini);
+  Future<String> obtenerClaveGroq() async {
+    final clave = await _storage.read(key: _claveGroq);
+    return clave ?? '';
+  }
 
-  Future<void> guardarClaveGemini(String clave) =>
-      _almacen.write(key: _claveGemini, value: clave);
+  Future<void> guardarClaveGroq(String clave) async {
+    await _storage.write(key: _claveGroq, value: clave);
+  }
 
-  Future<void> eliminarClaveGemini() => _almacen.delete(key: _claveGemini);
+  Future<void> eliminarClaveGroq() async {
+    await _storage.delete(key: _claveGroq);
+  }
 
-  Future<bool> tieneClaveGemini() async {
-    final clave = await obtenerClaveGemini();
-    return clave != null && clave.isNotEmpty;
+  bool esClaveGroqValida(String texto) {
+    final limpio = texto.trim();
+    if (limpio.isEmpty) return false;
+    if (!limpio.startsWith(_prefijoGroq)) return false;
+    if (limpio.length < 20) return false;
+    if (limpio.contains(' ')) return false;
+    return true;
   }
 }
