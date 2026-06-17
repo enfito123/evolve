@@ -8,7 +8,7 @@ Evolve es una aplicación de fitness y nutrición que combina inteligencia artif
 
 ## Dashboard
 
-<img src="screenshots/Dashboard.jpg" width="45%">
+<img src="screenshots/Dashboard.jpg" width="25%">
 
 ---
 
@@ -16,15 +16,15 @@ Evolve es una aplicación de fitness y nutrición que combina inteligencia artif
 
 **Nutrición con IA.** Olvídate de buscar alimentos en bases de datos interminables. Describe lo que has comido en lenguaje natural y la inteligencia artificial calcula las calorías al instante.
 
-<img src="screenshots/ConteoIngesta.jpg" width="45%">
+<img src="screenshots/ConteoIngesta.jpg" width="25%">
 
 **Balance calórico completo.** No solo contamos calorías. Calculamos tu metabolismo basal, las calorías que quemas caminando (sincronizadas con Health Connect), las que quemas entrenando y las que ingieres. Todo en un solo vistazo.
 
-<img src="screenshots/BalanceCalórico.jpg" width="45%">
+<img src="screenshots/BalanceCalórico.jpg" width="25%">
 
 **Entrenamientos guiados.** Rutinas de acondicionamiento con temporizador, imágenes de cada ejercicio y señales sonoras. Sin necesidad de llevar el móvil en la mano.
 
-<img src="screenshots/TimersRutinas.jpg" width="45%">
+<img src="screenshots/TimersRutinas.jpg" width="25%">
 
 ---
 
@@ -38,9 +38,9 @@ Evolve es una aplicación de fitness y nutrición que combina inteligencia artif
 - 📊 **Seguimiento mensual** — Calendario con tu balance calórico día a día
 - 🌍 **Multi-idioma** — Español, Català, Euskera, English, Français, Deutsch, Italiano, Nederlands, العربية
 
-<img src="screenshots/CalendarioSeguimiento.jpg" width="30%">
-<img src="screenshots/Logros.jpg" width="30%">
-<img src="screenshots/TasaMetabólicaBasal.jpg" width="30%">
+<img src="screenshots/CalendarioSeguimiento.jpg" width="20%">
+<img src="screenshots/Logros.jpg" width="20%">
+<img src="screenshots/TasaMetabólicaBasal.jpg" width="20%">
 
 ---
 
