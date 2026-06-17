@@ -6,15 +6,25 @@ Evolve es una aplicación de fitness y nutrición que combina inteligencia artif
 
 ---
 
+## Dashboard
+
+![Dashboard](screenshots/Dashboard.jpg)
+
+---
+
 ## ¿Qué hace diferente a Evolve?
 
 **Nutrición con IA.** Olvídate de buscar alimentos en bases de datos interminables. Describe lo que has comido en lenguaje natural y la inteligencia artificial calcula las calorías al instante.
 
+![Conteo de ingesta](screenshots/ConteoIngesta.jpg)
+
 **Balance calórico completo.** No solo contamos calorías. Calculamos tu metabolismo basal, las calorías que quemas caminando (sincronizadas con Health Connect), las que quemas entrenando y las que ingieres. Todo en un solo vistazo.
+
+![Balance calórico](screenshots/BalanceCalórico.jpg)
 
 **Entrenamientos guiados.** Rutinas de acondicionamiento con temporizador, imágenes de cada ejercicio y señales sonoras. Sin necesidad de llevar el móvil en la mano.
 
-**Sin suscripciones.** Ni un solo céntimo. Descárgala, úsala, evoluciona.
+![Temporizador de rutinas](screenshots/TimersRutinas.jpg)
 
 ---
 
@@ -27,6 +37,10 @@ Evolve es una aplicación de fitness y nutrición que combina inteligencia artif
 - 🎮 **Gamificación** — XP, niveles y logros que te motivan a seguir
 - 📊 **Seguimiento mensual** — Calendario con tu balance calórico día a día
 - 🌍 **Multi-idioma** — Español, Català, Euskera, English, Français, Deutsch, Italiano, Nederlands, العربية
+
+![Calendario de seguimiento](screenshots/CalendarioSeguimiento.jpg)
+![Logros](screenshots/Logros.jpg)
+![Tasa metabólica basal](screenshots/TasaMetabólicaBasal.jpg)
 
 ---
 
