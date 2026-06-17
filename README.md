@@ -38,9 +38,11 @@ Evolve es una aplicación de fitness y nutrición que combina inteligencia artif
 - 📊 **Seguimiento mensual** — Calendario con tu balance calórico día a día
 - 🌍 **Multi-idioma** — Español, Català, Euskera, English, Français, Deutsch, Italiano, Nederlands, العربية
 
-<img src="screenshots/CalendarioSeguimiento.jpg" width="20%">
-<img src="screenshots/Logros.jpg" width="20%">
-<img src="screenshots/TasaMetabólicaBasal.jpg" width="20%">
+<div align="center">
+<img src="screenshots/CalendarioSeguimiento.jpg" width="30%">&nbsp;&nbsp;&nbsp;
+<img src="screenshots/Logros.jpg" width="30%">&nbsp;&nbsp;&nbsp;
+<img src="screenshots/TasaMetabólicaBasal.jpg" width="30%">
+</div>
 
 ---
 
