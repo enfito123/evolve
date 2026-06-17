@@ -55,3 +55,7 @@ Evolve no vende ni comparte tus datos. Toda la información se almacena de forma
 ---
 
 *Evolve — Tu evolución, tu ritmo.*
+
+---
+
+**Desarrollado por Daniel Barrios** — Un proyecto gratuito de un solo desarrollador. Sin equipo, sin inversión, solo código y cafés. 🚀
