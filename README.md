@@ -2,7 +2,7 @@
 
 **Tu evolución, tu ritmo.**
 
-[🇪🇸 Español](README.md) • [🇬🇧 English](README.en.md) • [🇨🇦 Català](README.ca.md) • [🇪🇺 Euskera](README.eu.md)
+[🇪🇸 Español](README.md) • [🇬🇧 English](README-English.md) • [🇨🇦 Català](README-Català.md) • [🇪🇺 Euskera](README-Euskera.md) • [🇫🇷 Français](README-Français.md) • [🇩🇪 Deutsch](README-Deutsch.md) • [🇮🇹 Italiano](README-Italiano.md) • [🇳🇱 Nederlands](README-Nederlands.md) • [🇸🇦 العربية](README-Arabic.md)
 
 Evolve es una aplicación de fitness y nutrición que combina inteligencia artificial, gamificación y sincronización con dispositivos de salud para ayudarte a alcanzar tus objetivos. Todo en una experiencia limpia, oscura y centrada en ti.
 

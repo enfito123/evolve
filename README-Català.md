@@ -2,7 +2,9 @@
 
 **La teva evolució, el teu ritme.**
 
-Evolve és una aplicació de fitness i nutrició que combina intel·ligència artificial, gamificació i sincronització amb dispositius de salut per ajudar-te a assolir els teus objectius. Tot en una experiència neta, fosca i centrada en tu.
+[🇪🇸 Español](README-Español.md) • [🇬🇧 English](README-English.md) • [🇨🇦 Català](README-Català.md) • [🇪🇺 Euskera](README-Euskera.md) • [🇫🇷 Français](README-Français.md) • [🇩🇪 Deutsch](README-Deutsch.md) • [🇮🇹 Italiano](README-Italiano.md) • [🇳🇱 Nederlands](README-Nederlands.md) • [🇸🇦 العربية](README-Arabic.md)
+
+Evolve és una aplicació de fitness i nutrició que combina intel·ligència artificial, gamificació i sincronització amb dispositius de salut per ajudar-te a assolir els teus objectius.
 
 ---
 
@@ -14,7 +16,7 @@ Evolve és una aplicació de fitness i nutrició que combina intel·ligència ar
 
 ## Què fa diferent a Evolve?
 
-**Nutrició amb IA.** Descriu el que has menjat en llenguatge natural i la intel·ligència artificial calcula les calories a l'instant.
+**Nutrició amb IA.** Descriu el que has menjat en llenguatge natural i la IA calcula les calories a l'instant.
 
 <img src="screenshots/ConteoIngesta.jpg" width="25%">
 
@@ -32,8 +34,8 @@ Evolve és una aplicació de fitness i nutrició que combina intel·ligència ar
 
 - 🤖 **Nutrició per IA** — Descriu el teu menjar, la IA et diu les calories
 - 👟 **Passos amb Health Connect** — Sincronització automàtica
-- 🔥 **Balance calòric** — Ingereides vs cremades (basals + exercici + caminar)
-- 🏋️ **Rutines guiades** — Temporitzador, imatges, sons i calories cremades
+- 🔥 **Balance calòric** — Ingerides vs cremades
+- 🏋️ **Rutines guiades** — Temporitzador, imatges, sons
 - 🎮 **Gamificació** — XP, nivells i assoliments
 - 📊 **Seguiment mensual** — Calendari amb el teu balance calòric
 - 🌍 **Multi-idioma** — Català, Español, Euskera, English, Français, Deutsch, Italiano, Nederlands, العربية
@@ -54,4 +56,4 @@ Evolve és una aplicació de fitness i nutrició que combina intel·ligència ar
 
 ---
 
-**Desenvolupat per Daniel Barrios** — Un projecte gratuït d'un sol desenvolupador. Sense equip, sense inversió, només codi i cafès. 🚀
+**Desenvolupat per Daniel Barrios** — Un projecte gratuït d'un sol desenvolupador. 🚀

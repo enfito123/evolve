@@ -2,7 +2,9 @@
 
 **Your evolution, your pace.**
 
-Evolve is a fitness and nutrition app that combines artificial intelligence, gamification, and health device sync to help you reach your goals. All in a clean, dark experience centered on you.
+[🇪🇸 Español](README-Español.md) • [🇬🇧 English](README-English.md) • [🇨🇦 Català](README-Català.md) • [🇪🇺 Euskera](README-Euskera.md) • [🇫🇷 Français](README-Français.md) • [🇩🇪 Deutsch](README-Deutsch.md) • [🇮🇹 Italiano](README-Italiano.md) • [🇳🇱 Nederlands](README-Nederlands.md) • [🇸🇦 العربية](README-Arabic.md)
+
+Evolve is a fitness and nutrition app that combines artificial intelligence, gamification, and health device sync to help you reach your goals.
 
 ---
 
@@ -18,7 +20,7 @@ Evolve is a fitness and nutrition app that combines artificial intelligence, gam
 
 <img src="screenshots/ConteoIngesta.jpg" width="25%">
 
-**Complete calorie balance.** We calculate your basal metabolism, walking calories (synced with Health Connect), workout calories, and intake. All in one glance.
+**Complete calorie balance.** We calculate your basal metabolism, walking calories (synced with Health Connect), workout calories, and intake.
 
 <img src="screenshots/BalanceCalórico.jpg" width="25%">
 
@@ -32,10 +34,10 @@ Evolve is a fitness and nutrition app that combines artificial intelligence, gam
 
 - 🤖 **AI Nutrition** — Describe your food, AI tells you the calories
 - 👟 **Steps with Health Connect** — Automatic sync
-- 🔥 **Calorie balance** — Intake vs burned (basal + exercise + walking)
-- 🏋️ **Guided routines** — Timer, images, sounds, and calories burned
-- 🎮 **Gamification** — XP, levels, and achievements
-- 📊 **Monthly tracking** — Calendar with your daily calorie balance
+- 🔥 **Calorie balance** — Intake vs burned
+- 🏋️ **Guided routines** — Timer, images, sounds
+- 🎮 **Gamification** — XP, levels, achievements
+- 📊 **Monthly tracking** — Calendar with your daily balance
 - 🌍 **Multi-language** — English, Español, Català, Euskera, Français, Deutsch, Italiano, Nederlands, العربية
 
 <img src="screenshots/CalendarioSeguimiento.jpg" width="30%">
@@ -54,4 +56,4 @@ Evolve is a fitness and nutrition app that combines artificial intelligence, gam
 
 ---
 
-**Built by Daniel Barrios** — A free, solo developer project. No team, no investment, just code and coffee. 🚀
+**Built by Daniel Barrios** — A free, solo developer project. 🚀

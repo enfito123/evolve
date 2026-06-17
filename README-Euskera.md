@@ -2,7 +2,9 @@
 
 **Zure eboluzioa, zure erritmoa.**
 
-Evolve fitness eta nutrizio aplikazio bat da, adimen artifiziala, gamifikazioa eta osasun-gailuekin sinkronizazioa konbinatzen dituena zure helburuak lortzen laguntzeko. Esperientzia garbi, ilun eta zuregan zentratu batean.
+[🇪🇸 Español](README-Español.md) • [🇬🇧 English](README-English.md) • [🇨🇦 Català](README-Català.md) • [🇪🇺 Euskera](README-Euskera.md) • [🇫🇷 Français](README-Français.md) • [🇩🇪 Deutsch](README-Deutsch.md) • [🇮🇹 Italiano](README-Italiano.md) • [🇳🇱 Nederlands](README-Nederlands.md) • [🇸🇦 العربية](README-Arabic.md)
+
+Evolve fitness eta nutrizio aplikazio bat da, adimen artifiziala, gamifikazioa eta osasun-gailuekin sinkronizazioa konbinatzen dituena zure helburuak lortzen laguntzeko.
 
 ---
 
@@ -14,7 +16,7 @@ Evolve fitness eta nutrizio aplikazio bat da, adimen artifiziala, gamifikazioa e
 
 ## Zerk egiten du Evolve desberdin?
 
-**Nutrizioa IArekin.** Deskribatu zer jan duzun hizkuntza naturalean eta adimen artifizialak kaloriak kalkulatzen ditu berehala.
+**Nutrizioa IArekin.** Deskribatu zer jan duzun hizkuntza naturalean eta IAk kaloriak kalkulatzen ditu berehala.
 
 <img src="screenshots/ConteoIngesta.jpg" width="25%">
 
@@ -54,4 +56,4 @@ Evolve fitness eta nutrizio aplikazio bat da, adimen artifiziala, gamifikazioa e
 
 ---
 
-**Daniel Barrios-ek garatua** — Garatzaile bakarreko proiektu doakoa. Talderik gabe, inbertsiorik gabe, kode eta kafeak soilik. 🚀
+**Daniel Barrios-ek garatua** — Proiektu doakoa, garatzaile bakarrekoa. 🚀
