@@ -18,7 +18,7 @@ Para ofrecerte una experiencia óptima y personalizada, la Aplicación solicita 
 
 • **Datos de Alimentación y Ejercicio:** Descripciones de alimentos o ejercicios introducidos por el usuario.
 
-## 🔒 Cláusula de Limitación y Uso Local
+##  Cláusula de Limitación y Uso Local
 
 Todos los datos físicos, de salud y registros introducidos se guardan y procesan de manera local dentro de la Aplicación en tu dispositivo. Su único propósito es calcular tu consumo calórico diario, estimar el gasto energético y ofrecerte una experiencia completamente personalizada.
 
