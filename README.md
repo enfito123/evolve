@@ -48,21 +48,35 @@ Evolve es una aplicación de fitness y nutrición que combina inteligencia artif
 
 ---
 
-## Eliminación de datos
+## Eliminación de datos — Evolve
 
-[https://github.com/enfito123/evolve#eliminaci%C3%B3n-de-datos](https://github.com/enfito123/evolve#eliminaci%C3%B3n-de-datos)
+[https://github.com/enfito123/evolve#eliminaci%C3%B3n-de-datos--evolve](https://github.com/enfito123/evolve#eliminaci%C3%B3n-de-datos--evolve)
 
-Puedes eliminar tus datos sin borrar tu cuenta directamente desde la aplicación:
+### Datos que recoge Evolve
 
-- **Eliminar comidas abiertas**: Ve a Nutrición, desliza una comida hacia la izquierda y pulsa eliminar
-- **Editar o borrar perfil**: Ve a Ajustes → Perfil, modifica o borra los campos que quieras
-- **Cerrar sesión**: Ve a Ajustes → Cerrar sesión (los datos permanecen en tu dispositivo)
+- **Información personal**: nombre, email, ID de usuario (Firebase UID)
+- **Datos físicos**: edad, sexo, peso, altura
+- **Registros de actividad**: comidas con calorías, ejercicios realizados, pasos diarios
+- **Progreso**: nivel, experiencia (XP), logros desbloqueados
 
-## Eliminación de cuenta
+### Cómo solicitar la eliminación de datos
 
-Puedes eliminar tu cuenta y todos tus datos asociados desde **Ajustes → Eliminar cuenta**. Se borrará todo: perfil, comidas, ejercicios, pasos, nivel, XP y logros. Esta acción es irreversible.
+**Opción 1 — Desde la aplicación (recomendado):**
 
-Si no puedes acceder a la aplicación, abre un issue en [GitHub](https://github.com/enfito123/evolve/issues).
+1. Abre Evolve e inicia sesión
+2. Para eliminar comidas individuales: ve a **Nutrición**, desliza hacia la izquierda sobre una comida y pulsa eliminar
+3. Para editar o borrar datos del perfil: ve a **Ajustes → Perfil**
+4. Para eliminar la cuenta completa con todos los datos: ve a **Ajustes → Eliminar cuenta**
+
+**Opción 2 — Si no puedes acceder a la app:**
+
+Abre un issue en [GitHub](https://github.com/enfito123/evolve/issues) indicando tu email de registro y solicitaremos la eliminación manual en un plazo máximo de 30 días.
+
+### Plazos de retención
+
+- Los datos se eliminan inmediatamente al solicitar la baja desde la app
+- Las copias de seguridad en Firebase se purgan automáticamente en un plazo máximo de 30 días
+- No conservamos ningún dato fuera de los servicios de Firebase
 
 ## Privacidad
 
