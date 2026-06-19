@@ -48,6 +48,20 @@ Evolve es una aplicación de fitness y nutrición que combina inteligencia artif
 
 ---
 
+## Eliminación de cuenta
+
+Puedes eliminar tu cuenta y todos tus datos asociados directamente desde la aplicación:
+
+1. Abre Evolve e inicia sesión
+2. Ve a **Ajustes** (icono del engranaje)
+3. Desplázate hasta la sección **Cuenta**
+4. Pulsa **Eliminar cuenta**
+5. Confirma la eliminación
+
+Se borrarán todos tus datos: perfil, comidas registradas, ejercicios, pasos, nivel, XP y logros. Esta acción es irreversible.
+
+Si no puedes acceder a la aplicación, abre un issue en [GitHub](https://github.com/enfito123/evolve/issues).
+
 ## Privacidad
 
 Evolve no vende ni comparte tus datos. Toda la información se almacena de forma segura y se utiliza exclusivamente para ofrecerte una experiencia personalizada.
