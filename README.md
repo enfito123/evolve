@@ -50,7 +50,6 @@ Evolve es una aplicación de fitness y nutrición que combina inteligencia artif
 
 ## Eliminación de datos — Evolve
 
-[https://github.com/enfito123/evolve#eliminaci%C3%B3n-de-datos--evolve](https://github.com/enfito123/evolve#eliminaci%C3%B3n-de-datos--evolve)
 
 ### Datos que recoge Evolve
 
