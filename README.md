@@ -50,6 +50,8 @@ Evolve es una aplicación de fitness y nutrición que combina inteligencia artif
 
 ## Eliminación de cuenta
 
+[https://github.com/enfito123/evolve#eliminaci%C3%B3n-de-cuenta](https://github.com/enfito123/evolve#eliminaci%C3%B3n-de-cuenta)
+
 Puedes eliminar tu cuenta y todos tus datos asociados directamente desde la aplicación:
 
 1. Abre Evolve e inicia sesión
