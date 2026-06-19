@@ -48,34 +48,17 @@ Evolve es una aplicación de fitness y nutrición que combina inteligencia artif
 
 ---
 
-## Eliminación de datos — Evolve
+## Eliminar datos
 
+[https://github.com/enfito123/evolve#eliminar-datos](https://github.com/enfito123/evolve#eliminar-datos)
 
-### Datos que recoge Evolve
+Puedes eliminar tus datos desde la aplicacion:
 
-- **Información personal**: nombre, email, ID de usuario (Firebase UID)
-- **Datos físicos**: edad, sexo, peso, altura
-- **Registros de actividad**: comidas con calorías, ejercicios realizados, pasos diarios
-- **Progreso**: nivel, experiencia (XP), logros desbloqueados
+- **Comidas**: Abre Nutricion, desliza una comida a la izquierda y toca eliminar
+- **Perfil**: Ve a Ajustes > Perfil y modifica o borra los campos
+- **Cuenta completa**: Ve a Ajustes > Eliminar cuenta (borra todos tus datos: perfil, comidas, ejercicios, pasos, nivel, XP y logros)
 
-### Cómo solicitar la eliminación de datos
-
-**Opción 1 — Desde la aplicación (recomendado):**
-
-1. Abre Evolve e inicia sesión
-2. Para eliminar comidas individuales: ve a **Nutrición**, desliza hacia la izquierda sobre una comida y pulsa eliminar
-3. Para editar o borrar datos del perfil: ve a **Ajustes → Perfil**
-4. Para eliminar la cuenta completa con todos los datos: ve a **Ajustes → Eliminar cuenta**
-
-**Opción 2 — Si no puedes acceder a la app:**
-
-Abre un issue en [GitHub](https://github.com/enfito123/evolve/issues) indicando tu email de registro y solicitaremos la eliminación manual en un plazo máximo de 30 días.
-
-### Plazos de retención
-
-- Los datos se eliminan inmediatamente al solicitar la baja desde la app
-- Las copias de seguridad en Firebase se purgan automáticamente en un plazo máximo de 30 días
-- No conservamos ningún dato fuera de los servicios de Firebase
+Los datos se eliminan al instante. Las copias de seguridad en Firebase se purgan en un maximo de 30 dias.
 
 ## Privacidad
 
